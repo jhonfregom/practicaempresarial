@@ -9,10 +9,10 @@ if(isset($_POST["registro"])){
 
 if(!empty($_POST['duracion_llamada'])) {
 	
-	$server = "172.30.13.23";
-		$user = "user";
-		$pass = "password";
-		$bd = "practica";
+	$server = "172.30.223.141";
+        $user = "user";
+        $pass = "password";
+        $bd = "sampledb";
 	$conexion = mysqli_connect($server, $user, $pass,$bd) 
 			or die("Ha sucedido un error inexperado en la conexion de la base de datos");
 			

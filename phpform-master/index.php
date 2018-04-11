@@ -15,10 +15,10 @@ header("Location: intropage.php");
 if(isset($_POST["login"])){
 
 if(!empty($_POST['username']) && !empty($_POST['password'])) {
-	$server = "172.30.13.23";
+	$server = "172.30.223.141";
         $user = "user";
         $pass = "password";
-        $bd = "practica";
+        $bd = "sampledb";
         	
 		$conexion = mysqli_connect($server, $user, $pass,$bd) 
 			or die("Ha sucedido un error inexperado en la conexion de la base de datos");
